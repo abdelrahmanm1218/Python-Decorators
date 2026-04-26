@@ -1,6 +1,6 @@
 import stat
 import time
-from tracemalloc import start
+
 
 def my_decorator(func):
     def wrapper():
