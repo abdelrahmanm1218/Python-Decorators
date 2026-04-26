@@ -9,9 +9,9 @@ def my_decorator(func):
         print("after")
     return wrapper
 
-@my_decorator
-def hello():
-    print("Hello, World!")
+# @my_decorator
+# def hello():
+#     print("Hello, World!")
 
 
 
@@ -28,12 +28,12 @@ def calc_runtime(func):
     return wrapper
 
 
-@calc_runtime
-def delay_by(t):
-    time.sleep(t)
-    print("testing test func")
-    time.sleep(1)
-    print("Ended test function")
-    return "finished delay function"
+# @calc_runtime
+# def delay_by(t):
+#     time.sleep(t)
+#     print("testing test func")
+#     time.sleep(1)
+#     print("Ended test function")
+#     return "finished delay function"
 
-print(delay_by(t=4))
+# print(delay_by(t=4))
